@@ -5,8 +5,7 @@
 
 
 import streamlit as st
-import openai  # Make sure to install the OpenAI library: pip install openai
-
+import openai  
 openai.api_key = "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"
 
 def generate_question(topic):
@@ -33,16 +32,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
